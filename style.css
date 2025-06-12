@@ -659,7 +659,7 @@ header .right .btn-burger span {
 .info .right .container #carousel .a {
   -webkit-transform: rotateY(0deg) translateZ(250px);
           transform: rotateY(0deg) translateZ(250px);
-  background-image: url("book-1.jpg");
+  background-image: url("./book-1.jpg");
 }
 .info .right .container #carousel .b {
   -webkit-transform: rotateY(60deg) translateZ(250px);
@@ -964,7 +964,7 @@ header .right .btn-burger span {
 .info .right .container #carousel .a {
   -webkit-transform: rotateY(0deg) translateZ(250px);
           transform: rotateY(0deg) translateZ(250px);
-  background-image: url("book-1.jpg");
+  background-image: url("./book-1.jpg");
 }
 .info .right .container #carousel .b {
   -webkit-transform: rotateY(60deg) translateZ(250px);
