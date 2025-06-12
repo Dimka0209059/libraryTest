@@ -1,0 +1,60 @@
+/* Основные стили уведомления */
+.notification {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    background-color: #2dd284; /* Цвет фона */
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    flex-direction: column;
+    width: 380px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    user-select: none;
+    display: none;
+
+    .notification-content {
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    width: 100%;
+	    position: relative;
+
+	    .closeBtnInfo {
+		    cursor: pointer;
+		    color: white;
+		    font-weight: bold;
+		    font-size: 18px;
+		}
+        p {
+            font-size: 14px;
+        }
+	}
+}
+
+
+
+.icon {
+    margin-right: 10px;
+}
+
+/* Стили для полосы прогресса */
+.progress-bar {
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: -15px;
+    background-color: #6edaa4; /* Цвет полосы прогресса */
+    animation: progress 5s linear forwards; /* Анимация прогресс-бара */
+}
+
+/* Анимация для прогресс-бара */
+@keyframes progress {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
